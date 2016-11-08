@@ -1,0 +1,32 @@
+{
+  "name": "wcm-image-helper",
+  "homepage": "https://github.com/JvJefke/wcm-image-helper",
+  "authors": [
+    "Jeroen Valcke <valcke_jeroen@hotmail.com>"
+  ],
+  "description": "A WCM image source helper",
+  "main": [
+    "src/app.module.js",
+    "src/config.provider.js",
+    "src/background-image.directive.js",
+    "src/image-source.directive.js"
+  ],
+  "dependencies": {
+    "jquery": "jQuery#~2.1.4",
+    "angular": "~1.4.9"
+  }
+  "moduleType": [],
+  "keywords": [
+    "wcm",
+    "image"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
