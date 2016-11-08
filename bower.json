@@ -14,7 +14,7 @@
   "dependencies": {
     "jquery": "jQuery#~2.1.4",
     "angular": "~1.4.9"
-  }
+  },
   "moduleType": [],
   "keywords": [
     "wcm",
