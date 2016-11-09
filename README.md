@@ -3,13 +3,13 @@ A WCM image helper directive
 
 ## How to use
 
-1. Add the following dependency to your bower.json file:
-    ```javascript
+1. Add the following dependency to your bower.json file: <br/>
+    ```js
         "wcm-image-helper": "https://github.com/JvJefke/wcm-image-helper.git#[version]"
     ```
 2. Run bower install.
-3. Configure the helper in the config of your angular application.
-    ```javascript
+3. Configure the helper in the config of your angular application.<br/>
+    ```js
         angular.module('your module')
             .config([
                 'wcmImageHelperProvider',
