@@ -14,7 +14,12 @@
                     link: function($scope, element, attr) {
                         $scope.$watch('wcmImgSrc', function(newVal, oldVal) {
                             if(newVal) {
-                                var url = configuration.serverPath + newVal + '?apikey=' + configuration.apikey + '&tenant=' + configuration.tenant;
+                                var url = configuration.serverPath + newVal;
+
+                                if(configuration.apikey && configuration.tenant) {
+                                    url += '?apikey=' + configuration.apikey + '&tenant=' + configuration.tenant;
+                                }
+
                                 element.attr('src', url);
                             }
                         });
