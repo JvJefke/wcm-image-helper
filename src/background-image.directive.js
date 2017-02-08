@@ -18,7 +18,7 @@
                                 var url = 'url(\'' + configuration.serverPath + newVal;
 
                                 if(configuration.apikey && configuration.tenant) {
-                                    url += + '?apikey=' + configuration.apikey + '&tenant=' + configuration.tenant;
+                                    url += '?apikey=' + configuration.apikey + '&tenant=' + configuration.tenant;
                                 }
 
                                 url += '\')';
